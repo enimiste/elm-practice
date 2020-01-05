@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Time :: Clock</title>
+</head>
+<body>
+	<div id="digital-clock"></div>
+	<div id="analog-clock"></div>
+
+	<script src="build/digitalClock.js"></script>
+	<script src="build/analogClock.js"></script>
+	<script type="text/javascript">
+		Elm.DigitalStyledClock.init({node: document.getElementById('digital-clock')})
+		Elm.AnalogClock.init({node: document.getElementById('analog-clock')})
+	</script>
+</body>
+</html>
